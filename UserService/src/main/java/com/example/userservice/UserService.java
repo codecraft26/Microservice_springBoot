@@ -10,5 +10,6 @@ public User createUser(User user);
     public List<User> getAllUsers();
     public User updateUser(User user);
     public void deleteUser(String userId);
+    public void FindUserByEmail(String Email  );
 
 }
